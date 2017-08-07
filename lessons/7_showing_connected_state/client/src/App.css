@@ -1,0 +1,124 @@
+html,body, #root { height: 100%; margin: 0px; padding: 0px; }
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+
+
+body {
+  font-family: Roboto;
+  background-color: #E5E5E5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.App {
+  text-align: left;
+  height: 100%;
+  display: block;
+  margin: 10px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+
+.App-header {
+  background-color: #222;
+  padding: 5px;
+  padding-left: 20px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Drawing {
+   height: 100%;
+}
+
+.Drawing-title {
+   font-size: 33px;
+   padding: 10px;
+   background-color: #444;
+   color: #fff;
+   font-weight: 100;
+}
+
+.Form {
+  padding: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.Form-drawingInput {
+  border: 1px solid #ccc;
+  border-right: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+
+.Form-button {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  background-color: #333;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.DrawingList {
+  background-color: #fff;
+  padding-left: 0px;
+}
+
+
+.DrawingList-item {
+  list-style: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+}
+
+.DrawingList-item:hover {
+  background-color: #eee;
+}
+
+.DrawingList-item:active {
+  background-color: #ddd;
+  box-shadow: inset 0 0 3px rgba(0,0,0, 0.6);
+}
+
+.DrawingList-item:last-child {
+  border-bottom: none;
+}
+
+.Connection-error {
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.Connection-port {
+  background-color:#fff;
+  padding: 10px;
+  font-size: 20px;
+}
