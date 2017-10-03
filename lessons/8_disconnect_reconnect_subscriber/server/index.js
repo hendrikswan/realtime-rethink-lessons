@@ -68,7 +68,7 @@ r.connect({
 });
 
 
-const port = process.argv[2] || 8000;
+const port = parseInt(process.argv[2], 10) || 8000;
 io.listen(port);
 console.log('listening on port ', port);
 
